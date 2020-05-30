@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding-left:10px;
    
@@ -39,12 +39,12 @@ h1, h2, h3, h4, h5, h6 {
   
 #title {
     background-color:#E71414;
-    text-align: left;
+    text-align:left;
    
   }
 
   #title .container-fluid {
-    padding: 1.5% 6% %11;
+    padding:1.5% 6% 11%;
     height:670px;
     
   }
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #crown{
     position:relative;
-    height:40px;
+    height:30px;
     bottom:8px;
     
   }
@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
-    line-height: 88px;
+    font-size: 55px;
+    line-height: 80px;
     
     
   }
@@ -99,7 +99,10 @@ h1, h2, h3, h4, h5, h6 {
       text-align:left;
     }
     #title-text{
-      font-size:30px
+      font-size:30px;
+      line-height:75px;
+      
+
     }
   
   }
