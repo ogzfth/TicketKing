@@ -44,8 +44,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #title .container-fluid {
-    padding: 1.5% 6% 16%;
+    padding: 1.5% 6% %11;
+    height:670px;
+    
   }
+  
 
   #navbar-background{
     position: absolute;
@@ -93,10 +96,10 @@ h1, h2, h3, h4, h5, h6 {
   @media (max-width: 1028px) {
 
     #title {
-      text-align: center;
+      text-align:left;
     }
     #title-text{
-      font-size:40px
+      font-size:30px
     }
   
   }
