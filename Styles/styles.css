@@ -92,19 +92,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Slider-box */
 
-  #slider-bow{
+  #slider-box{
     text-align:center;
   }
   .slider-box {
     
-    margin: 20px 24px 20px 24px;
+    margin: 5% auto;
     padding: 0 20%;
   }
 
   .carousel-inner {    
     width: 900px;
     height: max-content;
-    text-align:center;
+    
   }
 
 
