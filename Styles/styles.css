@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
   .whitetext{
     color:white;
   }
+  .leftalign{
+    text-align:left;
+  }
 
 
 
@@ -57,15 +60,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 670px;
     left:0px;
+    right:0px;
    
     padding:0px;
     top:0px;
     z-index:0;
   
   
-    
-
-  opacity: 0.9;
+  
+    opacity: 0.9;
   }
 
   #crown{
@@ -90,20 +93,43 @@ h1, h2, h3, h4, h5, h6 {
     
   }
 
+/* Categories */
+  #categories{
+    padding:5% 6%;
+    text-align:center;
+}
+
+.categories-column{
+    padding:2.5% 1%;
+}
+
+.categories-icon{
+  height:50px;
+  margin-right:10px;
+  
+}
+.categories-button{
+  background-color:#f7f7f7;
+}
+.categories-button:hover{
+  background-color:#e8e4e1;
+}
+
+
 /* Slider-box */
 
   #slider-box{
-    text-align:center;
+   background-color:#f6d198;
   }
   .slider-box {
-    
-    margin: 5% auto;
-    padding: 0 20%;
+    margin:3% 0 0 0;
+   
   }
 
   .carousel-inner {    
-    width: 900px;
-    height: max-content;
+    margin:1% 0 0 0;
+    padding:1% 10%;
+
     
   }
 
@@ -123,7 +149,19 @@ h1, h2, h3, h4, h5, h6 {
 
     }
     #navbar-background{
-      width:200%;
+      width:100%;
+
     }
+    .carousel-inner {    
+      margin:1% 0 0 0;
+      padding:0px;
+  
+      
+    }
+    .categories-column{
+      padding:2% 1%;
+  }
+  
+  
   
   }
