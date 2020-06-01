@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #title .container-fluid {
     padding:1.5% 6% 11%;
-    height:670px;
+    height:810px;
     
   }
   
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-background{
     position:absolute;
     width: 100%;
-    height: 670px;
+    height: 810px;
     left:0px;
     right:0px;
    
@@ -98,15 +98,41 @@ h1, h2, h3, h4, h5, h6 {
     
     
   }
+  /*search box */
+  
+.search-box {
+  position:absolute;
+  top:50%;
+  left:50%;
+  background:red;
+  max-width:550px;
+  width:100%;
+  padding:10px;
+  border-radius:20px;
+  
+  
+  background-color: #e9e9e9;
+  z-index:1;
+}
+.search-box input{
+  border:none;
+  background-color: #e9e9e9;
+  width:85%;
+  padding:15px 20px;
+  border-style:none;
+}
 
+.search-icon{
+  height:20px;
+}
 /* Categories */
-  #categories{
-    padding:5% 6%;
+#categories{
+    padding:5% 7%;
     text-align:center;
 }
 
 .categories-column{
-    padding:2.5% 1%;
+    padding:0.5% 1%;
 }
 
 .categories-icon{
@@ -120,25 +146,21 @@ h1, h2, h3, h4, h5, h6 {
 .categories-button:hover{
   background-color:#e8e4e1;
 }
+.categories-row{
+  margin-top:30px;
+}
 
 
 /* Slider-box */
 
   #slider-box{
+    padding:0px;
+    padding:3% 10%;
+    
   
  
   }
-  .slider-box {
-    margin:3% 0 0 0;
-   
-  }
-
-  .carousel-inner {    
-    margin:1% 0 0 0;
-    padding:1% 10%;
-
-    
-  }
+ 
 
 
 
@@ -150,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
       text-align:left;
     }
     #title-text{
-      font-size:30px;
+      font-size:50px;
       line-height:75px;
       
 
@@ -159,11 +181,12 @@ h1, h2, h3, h4, h5, h6 {
       width:100%;
 
     }
-    .carousel-inner {    
-      margin:1% 0 0 0;
-      padding:0px;
-  
+    #slider-box {
+      margin:3% 0 0 0;
+      padding:3% 0%;
     }
+   
+    
     .categories-column{
       padding:2% 1%;
   }
@@ -184,11 +207,11 @@ h1, h2, h3, h4, h5, h6 {
       width:100%;
 
     }
-    .carousel-inner {    
-      margin:1% 0 0 0;
-      padding:0px;
-  
+    #slider-box {
+      margin:3% 0 0 0;
+      padding:3% 0%;
     }
+  
     .categories-column{
       padding:2% 1%;
   }
@@ -198,9 +221,8 @@ h1, h2, h3, h4, h5, h6 {
     #mobile{
       display:inline-block;
     }
- 
+  }
   
   }
   
 
-}
