@@ -1,10 +1,13 @@
+html{
+   scroll-behavior:smooth;
+}
 body{
     font-family:"Montserrat";
     text-align:center;
     
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat-Bold"  
+    font-family: "Montserrat"
   }
 
   .whitetext{
@@ -12,6 +15,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .leftalign{
     text-align:left;
+  }
+  .bold{
+    font-weight:bold;
   }
 
 
@@ -21,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     padding: 0 0 4.5rem;
+  
   }
 
 .navbar-brand {
@@ -40,14 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     font-size: 1.7rem;
     font-family: "Montserrat";
-
+    
     font-weight:lighter;
   }
   
 #title {
     background-color:#E71414;
-    text-align:left;
+    
    
+    
   }
 
   #title .container-fluid {
@@ -70,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   
   
   
-    opacity: 0.9;
+    opacity:1;
   }
   #mobile{
     display:none;
@@ -87,9 +95,11 @@ h1, h2, h3, h4, h5, h6 {
   #title-text{
     
     position:relative;
+    
+    
     color:white;
     z-index:1;
-    top:50px;
+    top:45px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -97,18 +107,20 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 80px;
     
     
+    
   }
   /*search box */
   
 .search-box {
-  position:absolute;
-  top:50%;
-  left:50%;
+  position:relative;
+  top:150px;
+  
   background:red;
   max-width:550px;
   width:100%;
-  padding:10px;
+  padding:6px;
   border-radius:20px;
+ 
   
   
   background-color: #e9e9e9;
@@ -150,6 +162,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top:30px;
 }
 
+#categories h2{
+  font-size:30px;
+}
+
 
 /* Slider-box */
 
@@ -162,20 +178,22 @@ h1, h2, h3, h4, h5, h6 {
   }
  
 
+  
+/* Footer*/
 
 
 
 
-  @media (max-width: 1028px) {
+
+  @media (max-width:1200px) {
 
     #title {
-      text-align:left;
+      text-align:center;
     }
     #title-text{
-      font-size:50px;
+      font-size:36px;
       line-height:75px;
-      
-
+    
     }
     #navbar-background{
       width:100%;
@@ -192,15 +210,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
 
     #title {
-      text-align:left;
+      
     }
     #title-text{
-      font-size:30px;
-      line-height:75px;
-      
+      font-size:23px;
+      line-height:70px;
+      padding:10px;
+      position:relative;
+      text-align:center;
 
     }
     #navbar-background{
@@ -222,7 +242,14 @@ h1, h2, h3, h4, h5, h6 {
       display:inline-block;
     }
   }
-  
+ 
+  }
+
+  @media (min-width: 1500px) {
+    #title-text{
+      
+     
+    }
   }
   
 
