@@ -222,8 +222,9 @@
 
 section.customers {
   display: flex;
-  width: 74%;
-  margin-left: 13%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;  
 }   
 
 
